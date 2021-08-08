@@ -1,5 +1,5 @@
 {% set name = "types-nmap" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-nmap-{{ version }}.tar.gz
-  sha256: 82e146fe34106fb1bff7108e854be1ebc9cc715e676db4f152844677c485968b
+  sha256: afaa3c9532079e5575caf67c1fd22516a130694f36c7af082feba51f89a55215
 
 build:
   number: 0
